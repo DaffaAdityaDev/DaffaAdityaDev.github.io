@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+.title-header {
+    border-bottom: 3px solid black;
+}
+.header {
+    display: block;
+    font-family: "Snell Roundhand";
+    font-weight: normal;
+    font-size: 60px;
+    text-align: center;
+}
+
+.row div{
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+}
+.begin {
+    width: 25%;
+}
+.story {
+    border-right: 1px solid black;
+    padding: 0 10px;
+}
+article {
+    display: block;
+}
+img {
+    width: 100%;
+}
+.mid {
+    width: 50%;
+}
